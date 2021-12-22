@@ -1,0 +1,29 @@
+{
+  "name": "heroku-salesforce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd nodemon",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samselegic/heroku-salesforce.git"
+  },
+  "author": "samrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samselegic/heroku-salesforce/issues"
+  },
+  "homepage": "https://github.com/samselegic/heroku-salesforce#readme",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsforce": "^1.11.0",
+    "nodemon": "^2.0.15"
+  }
+}
